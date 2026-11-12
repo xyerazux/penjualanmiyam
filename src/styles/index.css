@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+:root {
+  /* Design System Tokens — Monitoring Penjualan (Figma Reference) */
+  --color-primary: #145B46;
+  --color-primary-hover: #0F4736;
+  --color-primary-soft: #EAF4EF;
+  --color-primary-muted: #D8E9E1;
+  --color-secondary: #1D2B25;
+
+  --color-bg: #F5F7F5;
+  --color-bg-auth: #F1F5F2;
+  --color-surface: #FFFFFF;
+
+  --color-text-primary: #1D2B25;
+  --color-text-secondary: #738078;
+  --color-text-placeholder: #A0AAA4;
+
+  --color-border: #E4EAE6;
+
+  --color-success-bg: #EAF4EF;
+  --color-success-text: #145B46;
+
+  --color-warning-bg: #FFF2E5;
+  --color-warning-text: #A96B22;
+  --color-warning-accent: #E89A45;
+
+  --color-danger-bg: #FDECEC;
+  --color-danger-text: #B42318;
+
+  --radius-card: 13px;
+  --radius-auth: 18px;
+  --radius-nav: 9px;
+  --radius-input: 8px;
+  --radius-badge: 13px;
+
+  --font-sans: 'Inter', Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans);
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5F7F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D0DBD4;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #738078;
+}
+
